@@ -30,7 +30,7 @@
     </form>
 
     <button
-      class="badge badge-primary mr-2"
+      class="badge badge-primary mr-2 btn-secondary"
       *ngIf="currentAgencia.published"
       (click)="updatePublished(false)"
     >
@@ -38,19 +38,19 @@
     </button>
     <button
       *ngIf="!currentAgencia.published"
-      class="badge badge-primary mr-2"
+      class="badge badge-primary mr-2 btn-success"
       (click)="updatePublished(true)"
     >
       Publish
     </button>
 
-    <button class="badge badge-danger mr-2" (click)="deleteAgencia()">
+    <button class="badge badge-danger mr-2 btn-danger" (click)="deleteAgencia()">
       Delete
     </button>
 
     <button
       type="submit"
-      class="badge badge-success mb-2"
+      class="badge badge-success mb-2 btn-info"
       (click)="updateAgencia()"
     >
       Update
