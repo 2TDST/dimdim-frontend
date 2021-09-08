@@ -12,7 +12,7 @@ OBS.: Existe um bloqueio no @CrossOrigin que aceita apenas entradas da porta 808
 para executar local.
 
 ```sh
-ng serve --port 8081
+npm run startport
 ```
 
 URL: http://localhost:8081/
