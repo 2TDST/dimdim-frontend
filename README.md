@@ -1,7 +1,18 @@
-# DimdimFrontend
+# Dimdim - Frontend
 
-## Development server
+## Instalando e executando frontend local
 
-Run `ng serve --port 8081` for a dev server. Navigate to `http://localhost:8081/`. The app will automatically reload if you change any of the source files.
+```sh
+npm install -g @angular/cli
+```
 
+## Executando o servidor do frontend com ng
 
+OBS.: Existe um bloqueio no @CrossOrigin que aceita apenas entradas da porta 8081
+para executar local.
+
+```sh
+ng serve --port 8081
+```
+
+URL: http://localhost:8081/
